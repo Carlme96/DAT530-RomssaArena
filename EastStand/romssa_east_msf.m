@@ -36,7 +36,7 @@ dyn.m0 = {'pAStart', global_info.A_COUNT, ...
     'pVIPStart', global_info.VIP_COUNT};
 
 TS_FT = 5; % Turnstile firing time
-G_FT = 12; % Security guard firing time
+G_FT = 10; % Security guard firing time
 
 % Initial priorities for choosing queue
 dyn.ip = {'tCChooseB', 10000, 'tCChooseC', 10000, ...

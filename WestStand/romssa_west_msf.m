@@ -37,7 +37,7 @@ dyn.m0 = {'pHStart', global_info.H_COUNT, ...
       };
 
 CORR_FT = 5; % Corridor firing time - time taken to walk between sections
-TS_FT = 6; % Turnstile firing time
+TS_FT = 5; % Turnstile firing time
 G_FT = 10; % Security guard firing time
 
 % tNTs* - Security turnstiles
